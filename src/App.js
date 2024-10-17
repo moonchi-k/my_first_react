@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import PropsEx from "./components/ex02/propsEx";
+// import Prop from "./components/ex02/prop";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <PropsEx></PropsEx>;
 }
 
 export default App;
