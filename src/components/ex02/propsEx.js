@@ -1,5 +1,5 @@
-import Contents from "./components/contents";
-import ContentsEx from "./components/contentsEx";
+import Contents from "./components/Contents";
+import ContentsEx from "./components/ContentsEx";
 import "./style.css";
 
 const PropsEx = () => {
