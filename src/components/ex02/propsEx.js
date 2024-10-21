@@ -1,6 +1,6 @@
 import Contents from "./components/Contents";
 import ContentsEx from "./components/ContentsEx";
-import "./style.css";
+// import "./style.css";
 
 const PropsEx = () => {
   return (
