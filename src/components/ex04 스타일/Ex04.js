@@ -4,6 +4,7 @@ const Box = styled.div`
   width: 300px;
   height: 300px;
   background-color: ${(props) => props.$bgColor};
+  /* 스타일 프롭스 문법 */
   border-radius: 50%;
 `;
 
@@ -43,6 +44,7 @@ const Ex04 = () => {
   return (
     <div>
       <Box $bgColor="salmon">
+        {/* 스타일 프롭스는 앞에 달러써야함 */}
         <InBox></InBox>
       </Box>
       {/* 컴포넌트의 첫번째문자는 무조건 대문자 */}
