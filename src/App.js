@@ -5,6 +5,7 @@ import Ex03 from "./components/ex03/Ex03";
 import Ex05 from "./components/ex05/Ex05";
 import MusicApp from "./components/ex05/MusicApp";
 import Ex06 from "./components/ex06/Ex06";
+import Ex07 from "./components/ex07/Ex07";
 
 function App() {
   // return <PropsEx></PropsEx>;
@@ -13,7 +14,8 @@ function App() {
       {/* <Ex04></Ex04> */}
       {/* <Ex05></Ex05> */}
       {/* <MusicApp></MusicApp> */}
-      <Ex06></Ex06>
+      {/* <Ex06></Ex06> */}
+      <Ex07></Ex07>
     </div>
   );
 }
